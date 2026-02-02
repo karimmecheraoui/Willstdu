@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einverstanden?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align:center;">Bist du einverstanden?</h1>
+
+    <form action="https://api.web3forms.com/submit" method="POST" style="text-align:center;">
+
+        <!-- Dein API Key -->
+        <input type="hidden" name="access_key" value="14d6c293-9604-4d6a-a417-3e5dbac00b2c">
+
+        <!-- Deine Mail -->
+        <input type="hidden" name="email" value="karimmecheraoui@gmail.com">
+<img src="img/bobklein.gif" alt="Mein GIF">
+        <p>Uhrzeit:</p>
+        <select name="auswahl1">
+            <option>18 uhr</option>
+            <option>19 uhr</option>
+        </select>
+
+        <p>Geschenk:</p>
+        <select name="auswahl2">
+            <option>Blumen/rosenstrauss</option>
+            <option>ein dicker fetter burger</option>
+        </select>
+
+        <p>Wie romantisch möchtest du es haben:</p>
+        <select name="auswahl3">
+            <option>Sehr romantisch</option>
+            <option>Ein bisschen romantisch</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Einverstanden</button>
+
+        <input type="hidden" name="nachricht" value="Sie ist einverstanden.">
+
+    </form>
+
+</body>
+</html>

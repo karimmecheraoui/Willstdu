@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine kleine Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Möchtest du mein Valentinstagsschatz sein?</h1>
+    </header>
+
+    <main>
+
+        <div class="gif-container">
+            <img src="img/Bob.gif" alt="Mein GIF">
+        </div>
+
+        <div class="dropdown-container">
+            <label for="auswahl">Wähle etwas aus:</label>
+            <select id="auswahl" onchange="weiterleiten()">
+                <option value="">Bitte auswählen</option>
+                <option value="seite2.html">Ja</option>
+                <option value="seite2.html">Natürlich</option>
+                <option value="seite2.html">Aber sowas von</option>
+            </select>
+        </div>
+
+    </main>
+
+    <script>
+        function weiterleiten() {
+            const ziel = document.getElementById("auswahl").value;
+            if (ziel) {
+                window.location.href = ziel;
+            }
+        }
+    </script>
+
+</body>
+</html>

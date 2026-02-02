@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.gif-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gif-container img {
+    max-width: 300px;
+}
+
+.dropdown-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
